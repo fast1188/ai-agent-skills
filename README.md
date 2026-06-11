@@ -48,7 +48,7 @@
 |------|----------|------|
 | **Claude Code** | 3 | [claude-code/](claude-code/) |
 | **Codex** | 1 | [codex/](codex/) |
-| **Cursor Agent** | 1 | [shared/](shared/) |
+| **Cursor Agent** | 1 | [cursor/](cursor/) |
 | **OpenClaw** | 1 | [openclaw/](openclaw/) |
 | **Hermes Agent** | 1 | [hermes/](hermes/) |
 
@@ -169,6 +169,28 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](hermes/hermes-tutorial/)
 
+#### 🖱️ cursor/cursor-rules-pack
+
+**Cursor Agent 专属 skill pack**。
+
+- 7 种项目类型模板(React / Python / Go / Vue / etc.)
+- 预配置 `.cursorrules` 主模板
+- 按文件类型应用规则
+- 团队统一方案
+
+[→ 查看详情](cursor/cursor-rules-pack/)
+
+#### 📦 shared/vscode-extension-pack
+
+**VSCode AI 扩展集合包**。
+
+- 一键装 Cline / Continue / Copilot / Codeium 等
+- 推荐 .vscode/settings.json 配置
+- 国内直连(api.skillai.top)配置
+- 多扩展冲突解决方案
+
+[→ 查看详情](shared/vscode-extension-pack/)
+
 ---
 
 ### 路线图
@@ -185,8 +207,8 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 | W2 | codex-starter | ✅ 完成 |
 | W2 | openclaw-deploy | ✅ 完成 |
 | W2 | hermes-tutorial | ✅ 完成 |
-| W3 | cursor-rules-pack | 🔜 计划 |
-| W3 | vscode-extension-pack | 🔜 计划 |
+| W3 | cursor-rules-pack | ✅ 完成 |
+| W3 | vscode-extension-pack | ✅ 完成 |
 | W4 | model-benchmark | 🔜 计划 |
 
 ---
