@@ -14,6 +14,8 @@
 - [ ] 文档更新
 - [ ] 性能优化
 - [ ] 测试
+- [ ] Skill / 插件
+- [ ] CI / CD
 
 ## 改动文件
 
@@ -26,20 +28,34 @@
 - [ ] 我加了单元测试
 - [ ] 我更新了文档
 - [ ] 我跑过 lint / format
+- [ ] 多 Python 版本测试过(3.8 / 3.10 / 3.13)
 
-## Checklist
+## 兼容性
 
-- [ ] 代码遵循项目规范(见 `shared/agent-rules/AGENT_RULES.md`)
-- [ ] 没有引入新的 lint 警告
-- [ ] 添加了必要的注释
-- [ ] 更新了相关文档
-- [ ] 提交信息符合规范(`feat:` / `fix:` / `docs:` / `refactor:` 等)
-- [ ] 没有 commit `.env` / `*.key` / secrets
+- [ ] 现有功能没破坏
+- [ ] 公共 API 没变
+- [ ] 配置文件向后兼容
+- [ ] Windows / macOS / Linux 都测过
 
 ## 截图(可选)
 
 如果有 UI 改动,粘贴截图。
 
+## Checklist
+
+- [ ] 代码遵循 `shared/agent-rules/AGENT_RULES.md`
+- [ ] 没有引入新依赖(如果引入了,说明原因)
+- [ ] 没有 commit `.env` / `*.key` / secrets
+- [ ] commit 信息符合规范(`feat:` / `fix:` / `docs:` / `refactor:` / `test:` / `chore:`)
+- [ ] 中文回复用户(国际用户也接受)
+- [ ] 没有抄袭(差异化 / 原创 / 注明来源)
+
 ## 注意事项
 
 需要 reviewer 注意的地方。
+
+## 测试环境
+
+- OS: [e.g. Windows 11]
+- Python: [e.g. 3.13.13]
+- 关联项目版本: [e.g. codex-pp v0.2.0]
