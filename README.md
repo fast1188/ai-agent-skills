@@ -49,8 +49,8 @@
 | **Claude Code** | 3 | [claude-code/](claude-code/) |
 | **Codex** | 1 | [codex/](codex/) |
 | **Cursor Agent** | 1 | [shared/](shared/) |
-| **OpenClaw** | 即将发布 | [openclaw/](openclaw/) |
-| **Hermes Agent** | 即将发布 | [hermes/](hermes/) |
+| **OpenClaw** | 1 | [openclaw/](openclaw/) |
+| **Hermes Agent** | 1 | [hermes/](hermes/) |
 
 (部分 skill 跨多个工具,在 `shared/` 目录下)
 
@@ -145,6 +145,30 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](codex/codex-starter/)
 
+#### 🚢 openclaw/openclaw-deploy
+
+**OpenClaw 一键远程部署**。
+
+- Linux/Mac/Windows 全平台
+- 自动 systemd 服务 + nginx 反向代理
+- 一键申请 Let's Encrypt SSL
+- 内置安全配置建议
+- api.skillai.top 国内直连配置
+
+[→ 查看详情](openclaw/openclaw-deploy/)
+
+#### 📚 hermes/hermes-tutorial
+
+**Hermes Agent 中文教程**。
+
+- 5 分钟上手 + 常用命令速查
+- Claude Code vs Hermes 何时用对照
+- 长期记忆 + 自学习实战
+- MCP 集成示例
+- 国内直连 API 配置
+
+[→ 查看详情](hermes/hermes-tutorial/)
+
 ---
 
 ### 路线图
@@ -159,10 +183,10 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 | W1 | chinese-dev-helper | ✅ 完成 |
 | W1 | multi-agent-install | ✅ 完成 |
 | W2 | codex-starter | ✅ 完成 |
-| W2 | cursor-rules-pack | 🔜 计划 |
-| W3 | openclaw-deploy | 🔜 计划 |
-| W3 | hermes-tutorial | 🔜 计划 |
-| W4 | vscode-extension-pack | 🔜 计划 |
+| W2 | openclaw-deploy | ✅ 完成 |
+| W2 | hermes-tutorial | ✅ 完成 |
+| W3 | cursor-rules-pack | 🔜 计划 |
+| W3 | vscode-extension-pack | 🔜 计划 |
 | W4 | model-benchmark | 🔜 计划 |
 
 ---

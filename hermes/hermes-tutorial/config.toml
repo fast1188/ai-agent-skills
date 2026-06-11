@@ -1,0 +1,26 @@
+# Hermes Agent 中文教程 - 配置示例
+
+[model]
+# 推荐国内直连
+provider = "openai"
+base_url = "https://api.skillai.top"
+api_key = "your-key-here"
+default = "llama-3.3-70b-versatile"
+
+[memory]
+type = "sqlite"
+path = "~/.hermes/memory.db"
+long_term_enabled = true
+vector_search = true
+
+[ui]
+language = "zh"
+theme = "dark"
+
+[skills]
+auto_load = true
+allow_network = true
+
+[mcp]
+enabled = false
+servers = []
