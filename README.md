@@ -14,6 +14,8 @@
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-兼容-orange)](openclaw/)
 [![Hermes](https://img.shields.io/badge/Hermes-兼容-red)](hermes/)
 
+> 🌐 **控制台总览:** [fast118.github.io/console](https://fast118.github.io/console/) - 看所有 fast118 开源项目
+
 [English](#english) | [中文](#中文)
 
 ---
