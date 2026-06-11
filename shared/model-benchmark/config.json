@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "github_models": {
+      "base_url": "https://models.inference.ai.azure.com",
+      "key_file": "github_models.key.txt",
+      "default_model": "gpt-4o-mini"
+    },
+    "groq": {
+      "base_url": "https://api.groq.com/openai/v1",
+      "key_file": "groq.key.txt",
+      "default_model": "llama-3.3-70b-versatile"
+    },
+    "gemini": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "key_file": "gemini.key.txt",
+      "default_model": "gemini-2.0-flash-exp"
+    }
+  },
+  "iterations": 3
+}

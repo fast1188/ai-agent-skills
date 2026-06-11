@@ -191,6 +191,17 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](shared/vscode-extension-pack/)
 
+#### 📊 shared/model-benchmark
+
+**免费 AI 模型跑分对比工具**。
+
+- 同任务跑 5 个模型,自动评分
+- 6 类测试(代码 / 重构 / 翻译 / 总结 / 推理)
+- 自动出报告(markdown / html / 雷达图)
+- 一键对比"哪个免费模型最强"
+
+[→ 查看详情](shared/model-benchmark/)
+
 ---
 
 ### 路线图
@@ -209,7 +220,7 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 | W2 | hermes-tutorial | ✅ 完成 |
 | W3 | cursor-rules-pack | ✅ 完成 |
 | W3 | vscode-extension-pack | ✅ 完成 |
-| W4 | model-benchmark | 🔜 计划 |
+| W4 | model-benchmark | ✅ 完成 |
 
 ---
 
