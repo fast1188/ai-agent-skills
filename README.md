@@ -1,2 +1,206 @@
-# ai-agent-skills
-OpenClaw / Hermes / Codex / Claude Code Skills Collection - cross-platform agent skill library
+# AI Agent Skills
+
+> Claude Code / Codex / Cursor Agent / OpenClaw / Hermes Agent 一站式 Skills 集合
+>
+> 解决真实痛点 + 跨工具兼容 + 持续更新
+
+[![GitHub stars](https://img.shields.io/github/stars/fast118/ai-agent-skills)](https://github.com/fast118/ai-agent-skills)
+[![GitHub forks](https://img.shields.io/github/forks/fast118/ai-agent-skills)](https://github.com/fast118/ai-agent-skills)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+[![Claude Code](https://img.shields.io/badge/Claude_Code-兼容-blue)](claude-code/)
+[![Codex](https://img.shields.io/badge/Codex-兼容-green)](codex/)
+[![Cursor](https://img.shields.io/badge/Cursor-兼容-purple)](https://github.com/fast118/ai-agent-skills)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-兼容-orange)](openclaw/)
+[![Hermes](https://img.shields.io/badge/Hermes-兼容-red)](hermes/)
+
+[English](#english) | [中文](#中文)
+
+---
+
+## 中文
+
+### 这是什么?
+
+**ai-agent-skills** 是一个跨 AI 编程工具的 Skills 集合,帮你:
+
+- 撞限速时自动 fallback
+- 节省 token 消耗
+- 统一开发规范
+- 中文开发优化
+- 远程一键部署
+
+**所有 skill 都能在 4 个主流 AI 工具间共享** —— 一个仓库,覆盖整个 AI 编程生态。
+
+### 为什么用?
+
+| 痛点 | 这个项目解决 |
+|------|--------------|
+| Claude Code 撞限速停工 | api-fallback 自动切中转 |
+| token 跑得太快 | token-saver 节省 65% |
+| 每个 AI 工具配置格式不同 | agent-rules 统一规范 |
+| 中文文档写不好 | chinese-dev-helper |
+| 4 个工具重复装环境 | multi-agent-install 一键搞定 |
+
+### 兼容的 AI 工具
+
+| 工具 | Skills 数 | 入口 |
+|------|----------|------|
+| **Claude Code** | 2 | [claude-code/](claude-code/) |
+| **Codex** | 即将发布 | [codex/](codex/) |
+| **Cursor Agent** | 1 | [shared/](shared/) |
+| **OpenClaw** | 即将发布 | [openclaw/](openclaw/) |
+| **Hermes Agent** | 即将发布 | [hermes/](hermes/) |
+
+### 快速开始
+
+**第 1 步:克隆仓库**
+```bash
+git clone https://github.com/fast118/ai-agent-skills.git
+cd ai-agent-skills
+```
+
+**第 2 步:挑你想要的 skill,一键安装**
+
+每个 skill 文件夹里都有 `install.bat` (Windows) 或 `install.sh` (Linux/Mac):
+
+```bash
+# 例:装 api-fallback
+cd claude-code/api-fallback
+install.bat    # 或 ./install.sh
+```
+
+**第 3 步:重启 AI 工具,生效**
+
+---
+
+### 现有 Skills
+
+#### 🛡️ claude-code/api-fallback
+
+Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai.top)。
+
+- 实时监控 Claude Code 日志
+- 检测 429 / quota exceeded 错误
+- Windows toast 通知 + 一键切换 API
+- 60 秒冷却防骚扰
+
+[→ 查看详情](claude-code/api-fallback/)
+
+#### 📋 shared/agent-rules
+
+**一套规范,所有 AI 工具通用**。
+
+- 中文 master 文档 `AGENT_RULES.md`
+- 自动转换为:CLAUDE.md / AGENTS.md / .cursorrules / CONVENTIONS.md
+- 包含 Token 中转站专项规范
+- 一行命令 `python convert.py` 重新生成
+
+[→ 查看详情](shared/agent-rules/)
+
+---
+
+### 路线图
+
+每周上新 1-2 个 skill,持续维护。
+
+| Week | Skill | 状态 |
+|------|-------|------|
+| W1 | api-fallback | ✅ 完成 |
+| W1 | agent-rules | ✅ 完成 |
+| W2 | token-saver | 🔜 计划 |
+| W2 | chinese-dev-helper | 🔜 计划 |
+| W3 | multi-agent-install | 🔜 计划 |
+| W3 | codex-starter | 🔜 计划 |
+| W4 | openclaw-deploy | 🔜 计划 |
+| W4 | hermes-tutorial | 🔜 计划 |
+
+---
+
+### API 中转(国内直连)
+
+**Claude Code 撞限速?试试 [api.skillai.top](https://api.skillai.top)**
+
+- ✅ Claude / GPT / Gemini 全模型支持
+- ✅ 价格低至官方 1/3
+- ✅ 国内直连,无需翻墙
+- ✅ 7×24 稳定
+- ✅ 自动计费 + 用量统计
+
+---
+
+### 加入交流群
+
+扫码加入微信交流群,讨论 AI 工具、薅羊毛心得、提 issue / 建议:
+
+![WeChat Group](assets/wechat-qr.png)
+
+---
+
+### 贡献
+
+欢迎贡献:
+- 新的 skill(在 `claude-code/` / `codex/` / `openclaw/` / `hermes/` / `shared/` 下加)
+- 改进现有 skill
+- 文档改进
+- Bug 修复
+
+参见 [CONTRIBUTING.md](CONTRIBUTING.md)
+
+### 许可证
+
+[MIT](LICENSE)
+
+---
+
+## English
+
+### What is this?
+
+**ai-agent-skills** is a cross-tool skills collection for AI programming agents like Claude Code / Codex / Cursor Agent / OpenClaw / Hermes. Solve real pain points + cross-tool compatibility + continuous updates.
+
+### Why use?
+
+| Pain | Solution |
+|------|----------|
+| Claude Code hits rate limit | api-fallback auto-switches |
+| Tokens burn too fast | token-saver cuts 65% |
+| Every AI tool has different config format | agent-rules unified standard |
+| Chinese docs hard to write | chinese-dev-helper |
+| 4 tools = 4 setups | multi-agent-install one-click |
+
+### Compatible Tools
+
+| Tool | Skills | Path |
+|------|--------|------|
+| **Claude Code** | 2 | [claude-code/](claude-code/) |
+| **Codex** | Coming | [codex/](codex/) |
+| **Cursor Agent** | 1 | [shared/](shared/) |
+| **OpenClaw** | Coming | [openclaw/](openclaw/) |
+| **Hermes Agent** | Coming | [hermes/](hermes/) |
+
+### Quick Start
+
+```bash
+git clone https://github.com/fast118/ai-agent-skills.git
+cd ai-agent-skills
+# Pick a skill, then:
+cd claude-code/api-fallback
+install.bat    # or ./install.sh on Linux/Mac
+```
+
+### API Relay (China)
+
+Hit rate limits on Claude Code? Try [api.skillai.top](https://api.skillai.top):
+- Claude / GPT / Gemini full model support
+- 1/3 official pricing
+- Direct China connection, no proxy needed
+- 7×24 stability
+
+### WeChat Group
+
+![WeChat Group](assets/wechat-qr.png)
+
+### License
+
+[MIT](LICENSE)
