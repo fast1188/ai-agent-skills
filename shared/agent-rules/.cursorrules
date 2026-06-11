@@ -1,0 +1,41 @@
+# Cursor Agent 项目开发规范
+# 由 AGENT_RULES.md v2.0 自动生成
+
+# 第一原则
+禁止直接写代码。先读 6 个文档(README/ARCHITECTURE/CURRENT_TASK/BUG_HISTORY/CODING_RULES/CHANGELOG),输出方案,等确认。
+
+# 流程
+分析 → 设计 → 编码 → 测试 → 文档
+
+# 禁止
+- 删核心代码/API/DB 模型(除非批准)
+- 全项目重构(除非批准)
+- 闭源/收费依赖
+- 硬编码 API Key
+
+# Git
+feat: fix: docs: refactor: test: chore:
+
+# 代码质量
+文件≤500 行,函数≤100 行,类≤300 行,重复<5%。
+命名:user_name / get_user_info() / UserService。
+
+# 日志
+用 logger.info/warning/error(),不用 print。
+
+# 异常
+禁止 except:pass,必须 except Exception as e: logger.error(str(e))
+
+# 安全
+不提交 .env / *.key。日志脱敏(sk-****7890)。
+
+# 文档
+改完同步 README/ARCHITECTURE/CHANGELOG/CURRENT_TASK/BUG_HISTORY。
+
+# 开源
+README 完整,LICENSE MIT,Issue/PR 模板齐全。
+
+# Token 中转站
+不存聊天内容/图片/API Key。分层 Provider/Model/Billing/User/Admin。
+
+完整:https://github.com/fast118/ai-agent-skills/blob/main/shared/agent-rules/AGENT_RULES.md
