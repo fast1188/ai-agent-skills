@@ -47,7 +47,7 @@
 | 工具 | Skills 数 | 入口 |
 |------|----------|------|
 | **Claude Code** | 3 | [claude-code/](claude-code/) |
-| **Codex** | 即将发布 | [codex/](codex/) |
+| **Codex** | 1 | [codex/](codex/) |
 | **Cursor Agent** | 1 | [shared/](shared/) |
 | **OpenClaw** | 即将发布 | [openclaw/](openclaw/) |
 | **Hermes Agent** | 即将发布 | [hermes/](hermes/) |
@@ -133,6 +133,18 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](shared/multi-agent-install/)
 
+#### 📘 codex/codex-starter
+
+**OpenAI Codex CLI 5 分钟上手套装**。
+
+- 预配置 `~/.codex/config.toml`
+- 5 个常用 prompt 模板(审查 / 重构 / 测试 / 文档 / 修 bug)
+- Claude Code vs Codex 何时用对照表
+- 避坑指南
+- 内置 api.skillai.top 中转配置
+
+[→ 查看详情](codex/codex-starter/)
+
 ---
 
 ### 路线图
@@ -146,7 +158,7 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 | W1 | token-saver | ✅ 完成 |
 | W1 | chinese-dev-helper | ✅ 完成 |
 | W1 | multi-agent-install | ✅ 完成 |
-| W2 | codex-starter | 🔜 计划 |
+| W2 | codex-starter | ✅ 完成 |
 | W2 | cursor-rules-pack | 🔜 计划 |
 | W3 | openclaw-deploy | 🔜 计划 |
 | W3 | hermes-tutorial | 🔜 计划 |

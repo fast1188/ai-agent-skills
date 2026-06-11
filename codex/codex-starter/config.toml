@@ -1,0 +1,23 @@
+# Codex Starter - Pre-configured config.toml
+
+[model]
+default = "codex-mini"
+max_tokens = 4096
+temperature = 0.2
+
+[ui]
+theme = "dark"
+show_token_usage = true
+vim_mode = false
+
+[safety]
+confirm_destructive = true
+max_auto_edits = 50
+
+[telemetry]
+enabled = true
+
+# Optional: 国内直连中转(可选)
+# [api]
+# base_url = "https://api.skillai.top"
+# api_key = "your-key-here"
