@@ -171,6 +171,37 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](hermes/hermes-tutorial/)
 
+#### 🧠 hermes/hermes-mem
+
+**Hermes 持久化记忆增强**。
+
+- 跨项目、跨会话的智能记忆
+- 分类管理(preference / fact / decision)
+- 导入导出 + 过期清理
+- 跟其他 skill 共享记忆
+
+[→ 查看详情](hermes/hermes-mem/)
+
+#### 📚 claude-code/api-prompts
+
+**50+ 实战 prompt 模板**。
+
+- 8 大类(生成/审查/重构/调试/文档/中文/测试/高级)
+- 每个 prompt 都实测有效
+- 直接复制到 Claude Code 即可
+
+[→ 查看详情](claude-code/api-prompts/)
+
+#### 📊 codex/codex-bench
+
+**Codex CLI 性能基准**。
+
+- 同任务跑多模型(codex-mini / gpt-4o / gpt-4o-mini)
+- 速度 / 质量 / token 维度对比
+- 自动出报告
+
+[→ 查看详情](codex/codex-bench/)
+
 #### 🖱️ cursor/cursor-rules-pack
 
 **Cursor Agent 专属 skill pack**。
