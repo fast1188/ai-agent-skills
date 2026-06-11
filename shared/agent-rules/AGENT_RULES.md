@@ -601,6 +601,36 @@ SELECT *
 
 ---
 
+# 文件夹创建规范(STRICT)
+
+**目的:避免文件散落,保持项目结构清晰。**
+
+## 唯一允许建文件夹的地方
+
+1. **`D:\Claude解决各种问题\`** —— AI Agent 专属工作区(主战场)
+2. **`C:\Users\Administrator\.claude\projects\D--Claude------\`** —— 记忆系统(Claude 自带)
+3. **`C:\Users\Administrator\Desktop\`** —— 桌面(已建 AI-Agent-Rules 文件夹,这是终点,不再加)
+
+## 绝对禁止建的地方
+
+- ❌ D: 根(Users/、tmp/、articles/ 等)
+- ❌ C: 根
+- ❌ C: 任何非 .claude / Desktop 的目录
+- ❌ 其他任何盘符
+- ❌ 系统目录(ProgramData/、System32/、AppData/ 等)
+- ❌ Users/Administrator/ 下的 Downloads、Documents、Music 等
+
+## 文件散落禁止
+
+- ❌ 不能在 D:/ 根 / 桌面 单独扔 .py / .md / .json
+- ✓ 所有工作文件必须在 `D:\Claude解决各种问题\` 下分类目录
+
+## 违反处理
+
+发现违规时,先转移文件到正确位置 → 删除散落的文件 → 写明原因。
+
+---
+
 **版本:** 2.0.0
 **更新日期:** 2026-06-11
 **适用工具:** Claude Code, Codex, Cursor Agent, OpenClaw, Hermes, 等
