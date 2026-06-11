@@ -46,11 +46,13 @@
 
 | 工具 | Skills 数 | 入口 |
 |------|----------|------|
-| **Claude Code** | 2 | [claude-code/](claude-code/) |
+| **Claude Code** | 3 | [claude-code/](claude-code/) |
 | **Codex** | 即将发布 | [codex/](codex/) |
 | **Cursor Agent** | 1 | [shared/](shared/) |
 | **OpenClaw** | 即将发布 | [openclaw/](openclaw/) |
 | **Hermes Agent** | 即将发布 | [hermes/](hermes/) |
+
+(部分 skill 跨多个工具,在 `shared/` 目录下)
 
 ### 快速开始
 
@@ -98,6 +100,39 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](shared/agent-rules/)
 
+#### 💰 shared/token-saver
+
+**AI prompt 自动压缩器,省 30-70% token**(灵感来自 caveman 71k stars)。
+
+- 3 种模式:轻度 / 中度 / 极度
+- 中英文 prompt 都支持
+- 保留代码块和中文语义
+- CLI + Claude Code skill 集成
+
+[→ 查看详情](shared/token-saver/)
+
+#### 🇨🇳 claude-code/chinese-dev-helper
+
+**中文开发者专属增强**。
+
+- 中英文技术术语自动对照(40+ 术语)
+- 中文 README / 文档模板
+- 限速时自动推荐 [api.skillai.top](https://api.skillai.top) 国内直连
+- 中文 prompt 增强理解
+
+[→ 查看详情](claude-code/chinese-dev-helper/)
+
+#### 🚀 shared/multi-agent-install
+
+**5 分钟一键装好 5 个主流 AI 编程工具**。
+
+- Claude Code + Codex + Cursor Agent + OpenClaw + Hermes Agent
+- Windows / macOS / Linux 全平台
+- 自动检测已装工具
+- 一键装好,带进度报告
+
+[→ 查看详情](shared/multi-agent-install/)
+
 ---
 
 ### 路线图
@@ -108,12 +143,15 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 |------|-------|------|
 | W1 | api-fallback | ✅ 完成 |
 | W1 | agent-rules | ✅ 完成 |
-| W2 | token-saver | 🔜 计划 |
-| W2 | chinese-dev-helper | 🔜 计划 |
-| W3 | multi-agent-install | 🔜 计划 |
-| W3 | codex-starter | 🔜 计划 |
-| W4 | openclaw-deploy | 🔜 计划 |
-| W4 | hermes-tutorial | 🔜 计划 |
+| W1 | token-saver | ✅ 完成 |
+| W1 | chinese-dev-helper | ✅ 完成 |
+| W1 | multi-agent-install | ✅ 完成 |
+| W2 | codex-starter | 🔜 计划 |
+| W2 | cursor-rules-pack | 🔜 计划 |
+| W3 | openclaw-deploy | 🔜 计划 |
+| W3 | hermes-tutorial | 🔜 计划 |
+| W4 | vscode-extension-pack | 🔜 计划 |
+| W4 | model-benchmark | 🔜 计划 |
 
 ---
 

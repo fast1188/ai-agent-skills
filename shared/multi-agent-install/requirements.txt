@@ -1,0 +1,3 @@
+# multi-agent-install orchestrates installations
+# No Python deps required
+# Requires: Node.js 18+, Python 3.8+

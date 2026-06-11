@@ -1,0 +1,2 @@
+# token-saver has no external dependencies
+# Uses only Python standard library (re, sys, pathlib)
