@@ -237,6 +237,22 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 ---
 
+### 支持的模型 (SUPPORTED_MODELS)
+
+`api-fallback` / `model-benchmark` / `codex-starter` 默认走 **MiniMax 官方** (https://api.minimaxi.com/anthropic, 模型 `MiniMax-M3`)。其他 provider 通过 `config.json` 配置为 fallback。
+
+| Provider | base_url | 默认模型 | 用途 |
+|----------|----------|---------|------|
+| **MiniMax 官方** (default) | `https://api.minimaxi.com/anthropic` | `MiniMax-M3` | 主用 |
+| api.skillai.top (备) | `https://api.skillai.top` | `deepseek-v4-flash` | 中转降本 |
+| OpenAI (备) | `https://api.openai.com/v1` | `gpt-4o-mini` | 直连 |
+| GitHub Models (备) | `https://models.inference.ai.azure.com` | `gpt-4o` | 免费层 |
+
+切换 provider：编辑 `shared/model-benchmark/config.json` 或 `claude-code/api-fallback/.env`。
+完整对比跑分：[→ model-benchmark 报告](shared/model-benchmark/)。
+
+---
+
 ### 路线图
 
 每周上新 1-2 个 skill,持续维护。

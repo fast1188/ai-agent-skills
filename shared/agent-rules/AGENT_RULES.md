@@ -607,7 +607,7 @@ SELECT *
 
 ## 唯一允许建文件夹的地方
 
-1. **`D:\Claude解决各种问题\`** —— AI Agent 专属工作区(主战场)
+1. **`D:\Github开源项目\`** —— AI Agent 专属工作区(主战场)
 2. **`C:\Users\Administrator\.claude\projects\D--Claude------\`** —— 记忆系统(Claude 自带)
 3. **`C:\Users\Administrator\Desktop\`** —— 桌面(已建 AI-Agent-Rules 文件夹,这是终点,不再加)
 
@@ -623,7 +623,7 @@ SELECT *
 ## 文件散落禁止
 
 - ❌ 不能在 D:/ 根 / 桌面 单独扔 .py / .md / .json
-- ✓ 所有工作文件必须在 `D:\Claude解决各种问题\` 下分类目录
+- ✓ 所有工作文件必须在 `D:\Github开源项目\` 下分类目录
 
 ## 违反处理
 
@@ -661,10 +661,10 @@ SELECT *
 
 **已生效文件(2026-06-12 更新)**:
 
-- `D:\Claude解决各种问题\ask.py`
-- `D:\Claude解决各种问题\github_models_chat.py`
-- `D:\Claude解决各种问题\free-ai-router\router_config.example.json`
-- `D:\Claude解决各种问题\free-ai-router\smart_router.py`
-- `D:\Claude解决各种问题\projects\ai-agent-skills\shared\model-benchmark\benchmark.py`
-- `D:\Claude解决各种问题\projects\ai-agent-skills\shared\model-benchmark\config.json`
-- `D:\Claude解决各种问题\projects\codex-pp\codex_pp\config.py`(本来就已经默认 skillai)
+- `D:\Github开源项目\ask.py`
+- `D:\Github开源项目\github_models_chat.py`
+- `D:\Github开源项目\free-ai-router\router_config.example.json`
+- `D:\Github开源项目\free-ai-router\smart_router.py`
+- `D:\Github开源项目\projects\ai-agent-skills\shared\model-benchmark\benchmark.py`
+- `D:\Github开源项目\projects\ai-agent-skills\shared\model-benchmark\config.json`
+- `D:\Github开源项目\projects\codex-pp\codex_pp\config.py`(本来就已经默认 skillai)
