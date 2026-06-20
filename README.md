@@ -192,6 +192,18 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](claude-code/api-prompts/)
 
+#### ✉️ claude-code/write-email
+
+**中文场景邮件生成器** — 5 大场景（商务 / 求职 / 催办 / 道歉 / 感谢）。
+
+- 生成的邮件**不像 AI 写**：短句、有节奏、有具体数字、零客套
+- 6 条反 AI 检测要点（不"希望对您有所帮助"、不"祝商祺"）
+- 骨架 + CTA 槽位 → AI 填血肉
+- CLI + Claude Code skill 集成
+- 11 个 unittest 全过
+
+[→ 查看详情](claude-code/write-email/)
+
 #### 📊 codex/codex-bench
 
 **Codex CLI 性能基准**。
@@ -329,11 +341,11 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 | Tool | Skills | Path |
 |------|--------|------|
-| **Claude Code** | 2 | [claude-code/](claude-code/) |
-| **Codex** | Coming | [codex/](codex/) |
-| **Cursor Agent** | 1 | [shared/](shared/) |
-| **OpenClaw** | Coming | [openclaw/](openclaw/) |
-| **Hermes Agent** | Coming | [hermes/](hermes/) |
+| **Claude Code** | 4 | [claude-code/](claude-code/) |
+| **Codex** | 1 | [codex/](codex/) |
+| **Cursor Agent** | 1 | [cursor/](cursor/) |
+| **OpenClaw** | 1 | [openclaw/](openclaw/) |
+| **Hermes Agent** | 1 | [hermes/](hermes/) |
 
 ### Quick Start
 
@@ -352,6 +364,18 @@ Hit rate limits on Claude Code? Try [api.skillai.top](https://api.skillai.top):
 - 1/3 official pricing
 - Direct China connection, no proxy needed
 - 7×24 stability
+
+#### ✉️ claude-code/write-email
+
+**Chinese email generator** — 5 scenarios (BD / job / follow-up / apology / thanks).
+
+- Output sounds human: short sentences, rhythm, concrete numbers, zero clichés
+- 6 anti-AI detection rules
+- Skeleton + CTA slots filled by AI
+- CLI + Claude Code skill integration
+- 11 unit tests pass
+
+[→ View details](claude-code/write-email/)
 
 ### WeChat Group
 
