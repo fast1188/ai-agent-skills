@@ -202,7 +202,31 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 - CLI + Claude Code skill 集成
 - 11 个 unittest 全过
 
-[→ 查看详情](claude-code/write-email/)
+[→ View details](claude-code/write-email/)
+
+#### 🌐 claude-code/translate-skill
+
+**Chinese ↔ English translation templates** — 5 scenarios (doc / mail / chat / tech / lit).
+
+- Not literal translation — matches **register + person + tense** per scenario + glossary lock
+- 6 anti-AI translation rules (no Furthermore / no big words / keep var names / no padding)
+- 5 scenario examples + style comparison table
+- CLI + Claude Code skill integration
+- 10 unit tests pass
+
+[→ View details](claude-code/translate-skill/)
+
+#### 🌐 claude-code/translate-skill
+
+**中英翻译模板** — 5 大场景 (文档 / 邮件 / 口语 / 技术 / 文学)。
+
+- 不是逐字翻译 — 按场景匹配**语域 + 人称 + 时态** + 术语表锁定
+- 6 条反 AI 翻译要点 (不堆 Furthermore / 不用大词 / 保留变量名 / 不补客套)
+- 5 场景示例 + 风格对照表 (register / person / tense / length_pct)
+- CLI + Claude Code skill 集成
+- 10 个 unittest 全过
+
+[→ 查看详情](claude-code/translate-skill/)
 
 #### 📊 codex/codex-bench
 
