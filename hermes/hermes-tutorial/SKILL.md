@@ -39,7 +39,7 @@ Hermes Agent(NousResearch 出品)是一个**自学习的 AI 代理**,号称"the 
 ### 一键安装
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills/hermes/hermes-tutorial
 chmod +x install.sh
 ./install.sh
@@ -235,12 +235,12 @@ Hermes 支持 Model Context Protocol,可以接:
 - 数据库(查数据)
 - 自定义 HTTP API
 
-详见:https://github.com/fast118/ai-agent-skills
+详见:https://github.com/fast1188/ai-agent-skills
 
 ## 相关项目
 
-- [free-ai-router](https://github.com/fast118/free-ai-router)
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills)
+- [free-ai-router](https://github.com/fast1188/free-ai-router)
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills)
 - [api.skillai.top](https://api.skillai.top) - 国内直连
 
 ## 许可证

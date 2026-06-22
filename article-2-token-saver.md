@@ -36,7 +36,7 @@
 
 ## 我的解决方案:`token-saver` skill
 
-开源在 [ai-agent-skills](https://github.com/fast118/ai-agent-skills)。
+开源在 [ai-agent-skills](https://github.com/fast1188/ai-agent-skills)。
 
 **3 种压缩模式:**
 
@@ -121,7 +121,7 @@
 ## 5 分钟安装
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills
 
 # 装省 token skill
@@ -148,7 +148,7 @@ install.bat
 
 如果帮你省了 token,**点个 ⭐ Star** 支持一下:
 
-👉 **https://github.com/fast118/ai-agent-skills**
+👉 **https://github.com/fast1188/ai-agent-skills**
 
 ---
 

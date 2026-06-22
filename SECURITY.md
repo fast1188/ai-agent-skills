@@ -89,7 +89,7 @@ When using ai-agent-skills:
 
 We use GitHub Dependabot. If you find a vulnerability:
 
-1. Check [GitHub Security Advisories](https://github.com/fast118/ai-agent-skills/security/advisories)
+1. Check [GitHub Security Advisories](https://github.com/fast1188/ai-agent-skills/security/advisories)
 2. Or open a private security issue
 
 ## Acknowledgments

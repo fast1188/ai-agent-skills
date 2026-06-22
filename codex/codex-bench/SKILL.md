@@ -34,7 +34,7 @@ applies_to: [codex, openai]
 ## 安装
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills/codex/codex-bench
 pip install -r requirements.txt
 ```

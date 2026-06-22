@@ -200,8 +200,8 @@ Cursor 支持根据文件 glob 应用规则:
 
 ## 相关项目
 
-- [free-ai-router](https://github.com/fast118/free-ai-router)
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills)
+- [free-ai-router](https://github.com/fast1188/free-ai-router)
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills)
 - 通用规则: [shared/agent-rules/](../shared/agent-rules/)
 
 ## 许可证

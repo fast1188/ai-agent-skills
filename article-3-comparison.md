@@ -142,7 +142,7 @@
 不想纠结选哪个?**全装**,随时切换:
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills
 cd shared/multi-agent-install
 ./install-all.sh
@@ -164,7 +164,7 @@ cd shared/multi-agent-install
 
 如果帮你选型,点个 ⭐ Star:
 
-👉 **https://github.com/fast118/ai-agent-skills**
+👉 **https://github.com/fast1188/ai-agent-skills**
 
 ---
 

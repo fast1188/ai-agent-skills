@@ -41,7 +41,7 @@ applies_to: [all]
 ## 安装
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills/shared/model-benchmark
 pip install -r requirements.txt
 ```
@@ -156,8 +156,8 @@ py benchmark.py --report markdown > report.md
 
 ## 相关项目
 
-- [free-ai-router](https://github.com/fast118/free-ai-router)
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills)
+- [free-ai-router](https://github.com/fast1188/free-ai-router)
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills)
 
 ## 许可证
 

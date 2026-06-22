@@ -4,17 +4,17 @@
 >
 > 解决真实痛点 + 跨工具兼容 + 持续更新
 
-[![GitHub stars](https://img.shields.io/github/stars/fast118/ai-agent-skills)](https://github.com/fast118/ai-agent-skills)
-[![GitHub forks](https://img.shields.io/github/forks/fast118/ai-agent-skills)](https://github.com/fast118/ai-agent-skills)
+[![GitHub stars](https://img.shields.io/github/stars/fast1188/ai-agent-skills)](https://github.com/fast1188/ai-agent-skills)
+[![GitHub forks](https://img.shields.io/github/forks/fast1188/ai-agent-skills)](https://github.com/fast1188/ai-agent-skills)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-兼容-blue)](claude-code/)
 [![Codex](https://img.shields.io/badge/Codex-兼容-green)](codex/)
-[![Cursor](https://img.shields.io/badge/Cursor-兼容-purple)](https://github.com/fast118/ai-agent-skills)
+[![Cursor](https://img.shields.io/badge/Cursor-兼容-purple)](https://github.com/fast1188/ai-agent-skills)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-兼容-orange)](openclaw/)
 [![Hermes](https://img.shields.io/badge/Hermes-兼容-red)](hermes/)
 
-> 🌐 **控制台总览:** [fast118.github.io/console](https://fast118.github.io/console/) - 看所有 fast118 开源项目
+> 🌐 **控制台总览:** [fast1188.github.io/console](https://fast1188.github.io/console/) - 看所有 fast118 开源项目
 
 [English](#english) | [中文](#中文)
 
@@ -60,7 +60,7 @@
 
 **第 1 步:克隆仓库**
 ```bash
-git clone https://github.com/fast118/ai-agent-skills.git
+git clone https://github.com/fast1188/ai-agent-skills.git
 cd ai-agent-skills
 ```
 
@@ -374,7 +374,7 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 ### Quick Start
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills.git
+git clone https://github.com/fast1188/ai-agent-skills.git
 cd ai-agent-skills
 # Pick a skill, then:
 cd claude-code/api-fallback

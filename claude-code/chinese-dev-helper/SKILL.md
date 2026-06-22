@@ -113,8 +113,8 @@ py ~/.claude/skills/chinese-dev-helper/helper.py "你的中文 prompt"
 
 ## 相关项目
 
-- [free-ai-router](https://github.com/fast118/free-ai-router)
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills)
+- [free-ai-router](https://github.com/fast1188/free-ai-router)
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills)
 - [token-saver](../token-saver/)
 
 ## 许可证

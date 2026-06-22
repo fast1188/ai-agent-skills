@@ -136,8 +136,8 @@ Next: see README.md in this repo for skill setup.
 
 ## 相关项目
 
-- [free-ai-router](https://github.com/fast118/free-ai-router)
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills)
+- [free-ai-router](https://github.com/fast1188/free-ai-router)
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills)
 
 ## 许可证
 

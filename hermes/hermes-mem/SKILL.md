@@ -71,7 +71,7 @@ py ~/.claude/skills/hermes-mem/mem.py import backup.json
 ## 安装
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills/hermes/hermes-mem
 pip install -r requirements.txt
 install.bat
@@ -101,7 +101,7 @@ CREATE TABLE memories (
 ## 相关项目
 
 - [hermes-tutorial](../hermes-tutorial/) - Hermes 上手指南
-- [codex-pp](https://github.com/fast118/codex-pp) - 国产化 AI CLI
+- [codex-pp](https://github.com/fast1188/codex-pp) - 国产化 AI CLI
 
 ## License
 

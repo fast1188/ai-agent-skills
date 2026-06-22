@@ -41,13 +41,13 @@ applies_to: [openclaw]
 SSH 登录服务器后:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/fast118/ai-agent-skills/main/openclaw/openclaw-deploy/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/fast1188/ai-agent-skills/main/openclaw/openclaw-deploy/install.sh | bash
 ```
 
 或下载手动:
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills/openclaw/openclaw-deploy
 chmod +x install.sh
 ./install.sh
@@ -199,8 +199,8 @@ sudo certbot renew --force-renewal
 
 ## 相关项目
 
-- [free-ai-router](https://github.com/fast118/free-ai-router)
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills)
+- [free-ai-router](https://github.com/fast1188/free-ai-router)
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills)
 - [api.skillai.top](https://api.skillai.top) - 国内直连 API
 
 ## 许可证

@@ -105,7 +105,7 @@ py ~/.claude/skills/token-saver/compress.py "$(cat prompts/review-security.md)"
 ## 安装
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills/claude-code/api-prompts
 install.bat
 ```
@@ -137,7 +137,7 @@ install.bat
 
 - [token-saver](../token-saver/) - 压缩 prompt
 - [chinese-dev-helper](../chinese-dev-helper/) - 中文开发
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills) - 11 个 skills
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills) - 11 个 skills
 
 ## License
 

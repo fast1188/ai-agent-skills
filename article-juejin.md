@@ -18,7 +18,7 @@
 **今天一次性放出,GitHub + Gitee 双仓同步:**
 
 ```
-https://github.com/fast118/ai-agent-skills
+https://github.com/fast1188/ai-agent-skills
 https://gitee.com/wudijia2026/ai-agent-skills
 ```
 
@@ -42,7 +42,7 @@ https://gitee.com/wudijia2026/ai-agent-skills
 
 **安装:**
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills/claude-code/api-fallback
 install.bat
 ```
@@ -159,7 +159,7 @@ Installing 4 tools... 2 分钟
 ## 一键安装所有 skills
 
 ```bash
-git clone https://github.com/fast118/ai-agent-skills
+git clone https://github.com/fast1188/ai-agent-skills
 cd ai-agent-skills
 
 # 每个 skill 都独立
@@ -209,7 +209,7 @@ cd shared/multi-agent-install && install.bat
 
 扫码加入微信交流群:
 
-![WeChat Group](https://github.com/fast118/ai-agent-skills/raw/main/assets/wechat-qr.png)
+![WeChat Group](https://github.com/fast1188/ai-agent-skills/raw/main/assets/wechat-qr.png)
 
 群内:
 - 第一时间推送 skill 更新
@@ -223,7 +223,7 @@ cd shared/multi-agent-install && install.bat
 
 如果这套 skills 帮你省了 token / 解决了撞墙,**点个 ⭐ Star** 支持一下:
 
-👉 **https://github.com/fast118/ai-agent-skills**
+👉 **https://github.com/fast1188/ai-agent-skills**
 
 转发给身边用 Claude Code / Codex / Cursor 的朋友,一起告别"撞墙焦虑"。
 
@@ -234,5 +234,5 @@ cd shared/multi-agent-install && install.bat
 @fast118 / @wudijia2026 — 长期被 Claude 限速困扰的开发者,做了这套 skills 自救顺便开源。
 
 更多项目:
-- [free-ai-router](https://github.com/fast118/free-ai-router) — 多 AI 后端 fallback 路由器
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills) — 本项目
+- [free-ai-router](https://github.com/fast1188/free-ai-router) — 多 AI 后端 fallback 路由器
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills) — 本项目

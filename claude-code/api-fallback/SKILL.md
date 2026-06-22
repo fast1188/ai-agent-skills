@@ -77,8 +77,8 @@ chmod +x install.sh && ./install.sh
 
 ## 相关项目
 
-- [free-ai-router](https://github.com/fast118/free-ai-router) - 多 AI 后端 fallback 路由器
-- [ai-agent-skills](https://github.com/fast118/ai-agent-skills) - 本仓库,更多 skills
+- [free-ai-router](https://github.com/fast1188/free-ai-router) - 多 AI 后端 fallback 路由器
+- [ai-agent-skills](https://github.com/fast1188/ai-agent-skills) - 本仓库,更多 skills
 
 ## 许可证
 
