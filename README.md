@@ -48,7 +48,7 @@
 
 | 工具 | Skills 数 | 入口 |
 |------|----------|------|
-| **Claude Code** | 3 | [claude-code/](claude-code/) |
+| **Claude Code** | 5 | [claude-code/](claude-code/) |
 | **Codex** | 1 | [codex/](codex/) |
 | **Cursor Agent** | 1 | [cursor/](cursor/) |
 | **OpenClaw** | 1 | [openclaw/](openclaw/) |
@@ -365,7 +365,7 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 | Tool | Skills | Path |
 |------|--------|------|
-| **Claude Code** | 4 | [claude-code/](claude-code/) |
+| **Claude Code** | 5 | [claude-code/](claude-code/) |
 | **Codex** | 1 | [codex/](codex/) |
 | **Cursor Agent** | 1 | [cursor/](cursor/) |
 | **OpenClaw** | 1 | [openclaw/](openclaw/) |
