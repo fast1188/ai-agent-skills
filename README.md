@@ -339,6 +339,15 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 参见 [CONTRIBUTING.md](CONTRIBUTING.md)
 
+### 🔗 相关项目
+
+| 项目 | 描述 |
+|------|------|
+| [free-ai-router](https://github.com/fast1188/free-ai-router) | 多 AI fallback 路由器 + OpenAI 兼容服务器 |
+| [cc-switch](https://github.com/fast1188/cc-switch) | Claude Code 多 API 切换 CLI |
+| [codex-pp](https://github.com/fast1188/codex-pp) | Codex CLI 增强工具 |
+| [console](https://github.com/fast1188/console) | 统一控制台 → [在线演示](https://fast1188.github.io/console/) |
+
 ### 许可证
 
 [MIT](LICENSE)
@@ -400,6 +409,15 @@ Hit rate limits on Claude Code? Try [api.skillai.top](https://api.skillai.top):
 - 11 unit tests pass
 
 [→ View details](claude-code/write-email/)
+
+## 🔗 Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [free-ai-router](https://github.com/fast1188/free-ai-router) | Multi-AI fallback router + OpenAI-compatible server |
+| [cc-switch](https://github.com/fast1188/cc-switch) | Claude Code multi-API provider switcher CLI |
+| [codex-pp](https://github.com/fast1188/codex-pp) | Codex CLI supercharger (Prompt++ / scaffolding) |
+| [console](https://github.com/fast1188/console) | Unified dashboard — [Live Demo](https://fast1188.github.io/console/) |
 
 ### WeChat Group
 
